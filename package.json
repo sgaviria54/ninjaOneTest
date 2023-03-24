@@ -1,0 +1,23 @@
+{
+  "name": "ninjaonechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testAll": "testcafe chrome test/ninjarmm.js",
+    "getDevices": "testcafe chrome test/ninjarmm.js --test-meta tag=getDevices",
+    "checkAllDevices": "testcafe chrome test/ninjarmm.js --test-meta tag=checkAllDevices",
+    "chekcDevicesOptions": "testcafe chrome test/ninjarmm.js --test-meta tag=chekcDevicesOptions",
+    "addDevice": "testcafe chrome test/ninjarmm.js --test-meta tag=addDevice",
+    "updateDevice": "testcafe chrome test/ninjarmm.js --test-meta tag=updateDevice",
+    "deleteDevice": "testcafe chrome test/ninjarmm.js --test-meta tag=deleteDevice"
+  },
+  "author": "Sebastian Gaviria",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.4.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
